@@ -2,7 +2,6 @@ name: ci
 on:
   push:
     branches:
-      - master 
       - main
 permissions:
   contents: write
@@ -18,9 +17,6 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install -U mkdocs
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-awesome-pages-plugin
-      - run: pip install mike
-      - run: pip3 install mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-material 
+      - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
