@@ -1,3 +1,6 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
 <link rel="stylesheet" href="./assets/stylesheets/home.css">
 <!-- Hero -->
 <section class="container">
@@ -16,3 +19,5 @@
         </div>
     </div>
 </section>
+{% endblock %}
+{% block content %}{% endblock %}
