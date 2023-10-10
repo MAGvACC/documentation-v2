@@ -11,7 +11,7 @@ copyright: Copyright © 2023 Maghreb vACC
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/images/mini-logo.png
+  logo: https://cdn.discordapp.com/attachments/991795403093721108/1118961763577237514/test.png
   font:
     text: Lato
   palette:
@@ -30,7 +30,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-  favicon: assets/images/mini-logo.png
+  favicon: https://cdn.discordapp.com/attachments/991795403093721108/1118961763577237514/test.png
   icon:
     repo: fontawesome/brands/github
 
