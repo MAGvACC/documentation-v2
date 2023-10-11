@@ -43,22 +43,22 @@
 }
 
 .hero .md-button {
-    margin-top: .5rem;
-    margin-right: .5rem;
-    color: var(--md-primary-bg-color)
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    color: var(--md-primary-bg-color);
 }
 
 .hero .md-button--primary {
     background-color: var(--md-primary-bg-color);
     color: var(--md-accent-fg-color);
-    border-color: var(--md-primary-bg-color)
+    border-color: var(--md-primary-bg-color);
 }
 
 .hero .md-button:focus,
 .hero .md-button:hover {
     background-color: var(--md-accent-fg-color);
     color: #ffffff;
-    border-color: var(--md-accent-fg-color)
+    border-color: var(--md-accent-fg-color);
 }
 
 /* Features below hero */
