@@ -1,36 +1,19 @@
 /* Theme Adaptation */
 
-
-
 /*Primary Thematic Colors*/
-[data-md-color-scheme="default"] {
-    --md-primary-fg-color: #344767;
-    --md-accent-fg-color:         #344767;
-    --md-footer-fg-color:         #344767;
+[data-md-color-scheme="magvacc"] {
+    --md-primary-fg-color: #252525;
+    --md-accent-fg-color:         #252525;
+    --md-footer-fg-color:         #252525;
     --md-card-a:  rgba(241, 245, 249, 0.5);
     --md-card-a-hover: rgba(241, 245, 249, 1);
     --md-default-table-header-text: #fff;
     --md-top: var(--md-default-bg-color);
-    --md-typeset-link: rgb(104, 148, 230);
+    --md-typeset-link: rgb(104, 123, 230);
     --md-typeset-link-hover: #448aff;
-    --md-typeset-a-color: rgb(104, 148, 230);
+    --md-typeset-a-color: rgb(104, 123, 230);
     --hotline: #fff820a1;
     --coldline: #35b9ff66;
-  }
-  
-  [data-md-color-scheme="slate"] {
-    --md-default-bg-color: #0f172a;
-    --md-accent-fg-color:         #344767;
-    --md-primary-fg-color: #fff;
-    --md-card-a: #1b253b;
-    --md-card-a-hover: #293858;
-    --md-default-table-header-text: #fff;
-    --md-top: #1b253b;
-    --md-typeset-link: rgb(104, 148, 230);
-    --md-typeset-link-hover: #448aff;
-    --md-typeset-a-color: rgb(104, 148, 230);
-    --hotline: #b7b10291;
-    --coldline: #16aeff6e;
   }
   
   /*Header Modifications*/
@@ -95,7 +78,7 @@
   /*Table Styling*/
   .md-typeset table:not([class]) th {
     font-weight: bold;
-    background-color: #344767;
+    background-color: #2c2c2c;
     color: var(--md-default-table-header-text);
   }
   /* reduced table row height */

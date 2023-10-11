@@ -2,7 +2,7 @@
 site_name: Maghreb vACC Documentation
 site_url: https://docsv2.vatsim.ma
 site_author: Bobbie Chell
-repo_url: https://github.com/MAGvACC/documentation-v2
+repo_url: ""
 repo_name: MAGvACC/documentation-v2
 edit_uri: ""
 copyright: Copyright © 2023 Maghreb vACC
@@ -10,19 +10,16 @@ copyright: Copyright © 2023 Maghreb vACC
 # Configuration
 theme:
   name: material
+  language: en
   custom_dir: overrides
   logo: https://cdn.discordapp.com/attachments/991795403093721108/1118961763577237514/test.png
   font:
     text: Lato
   palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-night
+    - scheme: magvacc
   features:
+    - navigation.instant
+    - navigation.instant.progress#
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
@@ -31,13 +28,9 @@ theme:
     - search.highlight
     - search.share
   favicon: https://cdn.discordapp.com/attachments/991795403093721108/1118961763577237514/test.png
-  icon:
-    repo: fontawesome/brands/github
 
 # Plugins
 plugins:
-  - search:
-      lang: en
   - awesome-pages
   - git-revision-date-localized:
       type: date

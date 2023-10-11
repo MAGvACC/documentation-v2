@@ -1,3 +1,5 @@
 nav:
     - Home: index.md
-    
+    - Aerodromes: aerodromes
+    - Approach: approach
+    - Enroute: enroute
