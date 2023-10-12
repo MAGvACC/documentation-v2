@@ -36,11 +36,16 @@
   
   /*Announcement Bar*/
   .md-banner {
-      background-color: var(--md-footer-bg-color--dark);
+      background-color: #141414;
       color: var(--md-footer-fg-color);
       overflow: auto;
       text-align: center;
   }
+  .md-banner__inner{
+    color: #ffffff;
+    font-weight: 300;
+  }
+
   .md-typeset img, .md-typeset svg {
       height: auto;
       max-width: 100%;
