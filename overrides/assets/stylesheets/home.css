@@ -113,12 +113,25 @@
 
 @media screen and (max-width:480px) {
     .container {
-        padding-top: 1.5rem;
+        padding-top: 4.6rem;
+        padding-left: 0rem;
+        padding-bottom: 10.25rem;
         background: url('../../assets/images/welcome-image.png'), rgba(0,0,0,0.35);
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: overlay;
         background-position: 35%;
+    }
+
+    .hero .md-button {
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+        color: var(--md-primary-bg-color);
+        width: 325px;
+    }
+
+    .content-container {
+        padding-left: 0rem;
     }
 
     .hero h1 {
