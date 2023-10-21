@@ -3,3 +3,4 @@ mkdocs-material
 mkdocs-awesome-pages-plugin
 mkdocs-redirects
 mkdocs-git-revision-date-localized-plugin
+mkdocs-glightbox

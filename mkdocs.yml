@@ -32,6 +32,7 @@ theme:
 # Plugins
 plugins:
   - awesome-pages
+  - glightbox
   - git-revision-date-localized:
       type: date
 
