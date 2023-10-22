@@ -5,5 +5,4 @@ nav:
     - Understanding Metars: metar.md
     - Coordinating: coordination.md
     - Handoffs: handoff.md
-    - Runway Management: runway.md
     - Setting up VatSys: vatsys.md
