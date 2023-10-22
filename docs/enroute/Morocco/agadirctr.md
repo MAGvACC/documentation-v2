@@ -1,4 +1,4 @@
-# Casablanca Radar (GMMM)
+# Agadir Radar (GMAC)
 
 ### Coverage
 
@@ -21,6 +21,18 @@ GMAC_CTR is divided into four sectors on the network, each with its own callsign
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td class="foo"><em>GMAC_O_CTR</em></td>
+      <td><em class="foo">136.000 MHz</em></td>
+      <td><em class="foo">Agadir Radar</em></td>
+      <td><em class="foo">SFC - FL 195<br>FL 195 - FL 460<br>FL 460 - UNL</em></td>
+    </tr>
+      <tr>
+      <td class="foo"><em>GMAC_W_CTR</em></td>
+      <td><em class="foo">128.800 MHz</em></td>
+      <td><em class="foo">Agadir Radar</em></td>
+      <td><em class="foo">SFC - FL 195<br>FL 195 - FL 460<br>FL 460 - UNL</em></td>
+    </tr>
     <tr>
       <td class="foo"><em>GMAC_ON_CTR</em></td>
       <td><em class="foo">136.000 MHz</em></td>
