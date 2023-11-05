@@ -1,1 +1,0 @@
-# Cherif Al Idrissi Airport (GMTA)
