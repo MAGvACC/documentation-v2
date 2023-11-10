@@ -1,4 +1,4 @@
-# Sfax–Thyna International Airport (DTTX)
+# Sfax–Thyna (DTTX)
 
 ### Aerodrome Description
 

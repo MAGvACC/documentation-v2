@@ -1,5 +1,7 @@
 title: Aerodromes
 nav:
     - Overview: index.md
-    - Aerodromes: aerodromes
+    - Aerodromes [GMMM]: aerodromesGMMM
+    - Aerodromes [DAAA]: aerodromesDAAA
+    - Aerodromes [DTTC]: aerodromesDTTC
     - Procedural Aerodromes: procedural

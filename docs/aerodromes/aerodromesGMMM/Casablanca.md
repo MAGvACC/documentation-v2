@@ -1,4 +1,4 @@
-# Casablanca MV (GMMN)
+# Casablanca (GMMN)
 
 ### Aerodrome Description
 
